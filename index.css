@@ -42,6 +42,33 @@ nav a {
 }
 
 .bookmark-btn {
-  background-color: transparent;
-  color: #333;
+  background-color: #3cb4ac;
+  color: white;
+}
+
+/*stats section */
+
+.stats-section {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+
+.stats-section div {
+    flex: 1;
+}
+
+.amount-raised h2,
+.total-backers h2,
+.days-left h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.amount-raised p,
+.total-backers p,
+.days-left p {
+    margin: 0;
+    color: #7A7A7A;
 }
