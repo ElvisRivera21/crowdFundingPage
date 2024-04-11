@@ -1,0 +1,47 @@
+ul, body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.main-content {
+  text-align: center;
+  padding: 50px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.back-project-btn,
+.bookmark-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+}
+
+.back-project-btn {
+  background-color: #3cb4ac;
+  color: white;
+}
+
+.bookmark-btn {
+  background-color: transparent;
+  color: #333;
+}
