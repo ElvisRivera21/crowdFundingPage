@@ -72,3 +72,37 @@ nav a {
     margin: 0;
     color: #7A7A7A;
 }
+
+/*about section */
+
+.about-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.about-section h2 {
+    margin-bottom: 16px;
+}
+
+.pledge-option {
+    border: 1px solid #E0E0E0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.pledge-option h3 {
+    color: hslm(176, 50%, 47%);
+    margin-bottom: 10px;
+}
+
+.availability {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.availability.out-of-stock {
+    color: red;
+}
