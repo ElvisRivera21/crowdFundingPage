@@ -5,16 +5,23 @@ ul, body, h1, p {
 
 nav ul {
   list-style-type: none;
+  text-align: right;
+  background-color: #3cb4ac;
+  color: white;
+  min-height: 25px;
+  
 }
 
 nav li {
   display: inline-block;
   margin-right: 20px;
+  text-align: right;
 }
 
 nav a {
   text-decoration: none;
   color: #333;
+  text-align: right;
 }
 
 .main-content {
@@ -99,6 +106,12 @@ nav a {
     margin-bottom: 10px;
 }
 
+.select-reward-btn {
+  background-color: #3cb4ac;
+  color: white;
+  border-radius: 10px;
+}
+
 .availability {
     font-weight: bold;
     margin-bottom: 20px;
@@ -116,4 +129,8 @@ nav a {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 400px;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
