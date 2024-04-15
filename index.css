@@ -20,6 +20,7 @@ nav a {
 .main-content {
   text-align: center;
   padding: 50px;
+  color:aliceblue;
 }
 
 .buttons {
@@ -105,4 +106,14 @@ nav a {
 
 .availability.out-of-stock {
     color: red;
+}
+
+/*Background Image*/
+
+.background-image {
+  background-image: url('./images/bamboostgand.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 400px;
 }
