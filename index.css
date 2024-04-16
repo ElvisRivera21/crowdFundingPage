@@ -151,3 +151,10 @@ body {
   width: 0%; /* Starting width */
   transition: width 0.5s ease-in-out;
 }
+
+.signiture{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
