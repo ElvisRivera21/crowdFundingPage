@@ -134,3 +134,20 @@ nav a {
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+/*progress bar */
+
+.progress-bar-container {
+  background-color: #e1e1e1;
+  border-radius: 20px;
+  height: 20px;
+  width: 100%;
+}
+
+.progress-bar {
+  background-color: #3cb4ac;
+  border-radius: 20px;
+  height: 100%;
+  width: 0%; /* Starting width */
+  transition: width 0.5s ease-in-out;
+}
